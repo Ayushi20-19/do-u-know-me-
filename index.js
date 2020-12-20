@@ -3,17 +3,16 @@ var chalk = require('chalk');
 
 var score = 0;
 
-console.log('Heyah');
+console.log('Hey yah :)');
 var userName = readlineSync.question('Please provide your good name to continue with the game : ');
 
 console.log('Hello '+userName+',\n');
 console.log('Welcome to '+chalk.yellowBright.bold(' DO YOU KNOW ME ?\n'));
-console.log('Let\'s see how much you know about '+ chalk.yellow.bold(' Ayushi ')+'??\n');
+console.log('Let\'s see how much you know about '+ chalk.yellow.bold(' Ayushi ')+'?\n');
  console.log(chalk.yellowBright('-----------------------------------------------'));
 console.log(chalk.green('Guide'));
 console.log(chalk.magenta('> There are multiple choice questions'));
-console.log(chalk.magenta('> Choose the options given below by selecting any of the keys from 1,2,3,4\n\n'));
-
+console.log(chalk.magenta('> Choose the options given below by selecting any of the key 1,2,3,4\n'));
  console.log(chalk.yellowBright('-----------------------------------------------'));
 
 
@@ -48,13 +47,13 @@ var questionBank = [
 
   
   {
-    question : 'What is my favourite ice-cream?',
+    question : 'Which is my favourite ice-cream ?',
     options : ['Chocolate', 'Vanilla', 'Straberry','Butterscotch'],
     answer : 'Chocolate'
   },
   {
     question : 'Can you guess my favourite television series ?',
-    options : ['Friends', 'Game Of Thrones', 'The Office', 'Brooklyn 99'],
+    options : ['Friends', 'Brooklyn 99', 'Game Of Thrones', 'The Office'],
     answer : 'Friends'
   }
 ]
